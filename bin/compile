@@ -76,7 +76,7 @@ for PACKAGE in $PACKAGES; do
   fi
 done
 
-mkdir -p $BUILD_DIR/.local
+mkdir -p $BUILD_DIR/.local/bin
 
 cat <<EOF > $BUILD_DIR/.local/bin/dl
 #!/bin/sh
